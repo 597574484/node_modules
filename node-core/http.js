@@ -10,5 +10,12 @@ http.createServer(function(req, res){
 	for(var key in req){
 		string2 = string2 + key + " : " + req[key];
 	}
-	res.end(string +"<h1>HEHEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE</h1>"+string2)
-}).listen(3000,function(err){if(err)console.log(err);})
+	res.end(string +"<h1>HEHEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE\n"+string2)
+}).listen(3000,function(err){if(err)console.log(err);});
+
+
+/**
+ * http : 
+ *
+ * 
+ */
