@@ -55,6 +55,6 @@ var fs = require('fs');
  *  所有的Stream对象都是EventEmitter的实例。
  *  1.创建 :  fs.createReadStream(filename) / fs.createWriteStream('file') 
  *  2.数据 :  on('data')//data/end/error/finish
- *  (fs.createReadStream('input.txt')).pipe(fs.createWriteStream('output.txt'));  
+ *  (fs.createReadStream('input.txt')).pipe(fs.createWriteStream('output.txt'));
  */
 
