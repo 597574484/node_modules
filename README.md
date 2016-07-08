@@ -7,3 +7,5 @@
 >requirejs
 
 >node-core
+
+>mysql
