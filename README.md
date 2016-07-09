@@ -9,3 +9,5 @@
 >node-core
 
 >mysql
+
+>request + cheerio
