@@ -1,0 +1,6 @@
+var exec = require('child_process').exec;
+var command = 'cat spawn_test.js ';
+var child = exec(command, function(error, stdout, stderr){
+    console.info('content: ', stdout);
+
+});
